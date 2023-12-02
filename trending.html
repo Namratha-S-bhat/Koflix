@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,400;1,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Koflix-Trending</title>
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <div class="navbar"></div>
+    <div class="navbar-container">
+        <div class="logo-container">
+            <h1 class="logo">Koflix</h1>
+        </div>
+        <div class="menu-container">
+            <ul class="menu-list">
+                <li class="menu-list-item active"><a href="index.html">Home</a></li>
+                <li class="menu-list-item active"><a href="popular.html">Popular</a></li>
+                <li class="menu-list-item active"><a href="dramas.html">Dramas</a></li>
+                <li class="menu-list-item active"><a href="trending.html">Trending</a></li>
+            </ul>
+        </div>
+        <div class="profile-container">
+            <img class="profile-picture" src="images\profilephoto.jpg" alt="profile picture">
+            <div class="profile-text-container">
+                <span class="profile-text text-color">
+                    <select size="1">
+                       <option value="profile">profile</option>
+                       <option value="Namratha">Namratha</option>
+                    </select>
+                </span>
+                <i class="fa-solid fa-caret-down text-color"></i>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+    </div>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">Trending</h1>
+        <div class="movie-list-wrapper">
+            <div class="movie-list">
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend1.jpg" alt="">
+                    <span class="movie-list-item-title">Glory</span>
+                    <p class="movie-list-item-desc">A young woman, bullied to the point of deciding to drop out of school, plans the best way to get revenge.</p>
+                    <button class="movie-list-item-button" onclick="d6()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend2.jpg" alt="">
+                    <span class="movie-list-item-title">Island</span>
+                    <p class="movie-list-item-desc">Won Mi Ho is the only daughter of her father who runs Daehan Group. Her arrogant and selfish attitude causes her to make a big mistak</p>
+                    <button class="movie-list-item-button" onclick="d1()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend3.jpg" alt="">
+                    <span class="movie-list-item-title">W-two worlds</span>
+                    <p class="movie-list-item-desc">A surgeon suddenly enters an alternate universe while investigating her father's disappearance.</p>
+                    <button class="movie-list-item-button" onclick="d2()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend4.jpg" alt="">
+                    <span class="movie-list-item-title">What's Wrong with Secretary Kim</span>
+                    <p class="movie-list-item-desc">A narcissistic executive gets romantically involved with his secretary after nine years of having a professional relationship.</p>
+                    <button class="movie-list-item-button" onclick="d3()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend5.jpg" alt="">
+                    <span class="movie-list-item-title">Nevertheless</span>
+                    <p class="movie-list-item-desc">The story of a romance between a man who is annoyed with relationships but likes to flirt and a woman who wants to date but does not believe in love.</p>
+                    <button class="movie-list-item-button" onclick="d4()">Watch</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-list-wrapper">
+            <div class="movie-list">
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend6.jpg" alt="">
+                    <span class="movie-list-item-title">Strong Girl Bong-soon</span>
+                    <p class="movie-list-item-desc">A woman born with superhuman strength is hired by the CEO of a gaming company, to be his bodyguard.</p>
+                    <button class="movie-list-item-button" onclick="d5()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend7.jpg" alt="">
+                    <span class="movie-list-item-title">The Silent sea</span>
+                    <p class="movie-list-item-desc">During a perilous 24-hour mission on the moon, space explorers try to retrieve samples from an abandoned research facility steeped in classified secrets.</p>
+                    <button class="movie-list-item-button" onclick="d6()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend8.jpg" alt="">
+                    <span class="movie-list-item-title">Pachinko</span>
+                    <p class="movie-list-item-desc"> Pachinko is a sweeping epic that captures the arc of history as well as the enduring bonds of family</p>
+                    <button class="movie-list-item-button" onclick="d1()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend9.jpg" alt="">
+                    <span class="movie-list-item-title">Our Blooming Youth</span>
+                    <p class="movie-list-item-desc">A delightful combination of romance and mystery</p>
+                    <button class="movie-list-item-button" onclick="d2()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/trend10.jpg" alt="">
+                    <span class="movie-list-item-title">Love alarm</span>
+                    <p class="movie-list-item-desc">In a world in which an app alerts people if someone in the vicinity likes them, Kim Jojo experiences young love while coping with personal adversities</p>
+                    <button class="movie-list-item-button" onclick="d3()">Watch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <footer class="footer-design">
+    <div class="footer-container">
+        <h1 class="logo" style="margin-left: 47%;">Koflix</h1>
+        <div class="social">
+            <a href="#"><i class="social-icons fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="social-icons fa-brands fa-facebook "></i></a>
+            <a href="#"><i class="social-icons fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="social-icons fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

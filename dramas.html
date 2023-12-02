@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,400;1,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Koflix-Dramas</title>
+    <script src="myScript.js"></script>   
+</head>
+<body>
+    <div class="navbar"></div>
+    <div class="navbar-container">
+        <div class="logo-container">
+            <h1 class="logo">Koflix</h1>
+        </div>
+        <div class="menu-container">
+            <ul class="menu-list">
+                <li class="menu-list-item active"><a href="index.html">Home</a></li>
+                <li class="menu-list-item active"><a href="popular.html">Popular</a></li>
+                <li class="menu-list-item active"><a href="dramas.html">Dramas</a></li>
+                <li class="menu-list-item active"><a href="trending.html">Trending</a></li>
+            </ul>
+        </div>
+        <div class="profile-container">
+            <img class="profile-picture" src="images\profilephoto.jpg" alt="profile picture">
+            <div class="profile-text-container">
+                <span class="profile-text text-color">
+                    <select size="1">
+                       <option value="profile">profile</option>
+                       <option value="Namratha">Namratha</option>
+                    </select>
+                </span>
+                <i class="fa-solid fa-caret-down text-color"></i>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+    </div>
+    <div class="movie-list-container">
+        <h1 class="movie-list-title">K-Drama</h1>
+        <div class="movie-list-wrapper">
+            <div class="movie-list">
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images\imag1.jpg" alt="">
+                    <span class="movie-list-item-title">Revenge of others</span>
+                    <p class="movie-list-item-desc">One day, Ok Chan-Mi's twin brother dies. She chases after the truth related to her his death.</p>
+                    <button class="movie-list-item-button" onclick="d1()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images\imag2.jpg" alt="">
+                    <span class="movie-list-item-title">True Beauty</span>
+                    <p class="movie-list-item-desc">A female student's life changes as she learns make-up techniques.</p>
+                    <button class="movie-list-item-button" onclick="d2()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images\imag3.jpg" alt="">
+                    <span class="movie-list-item-title">The King: Eternal Monarch</span>
+                    <p class="movie-list-item-desc">Korean emperor Lee Gon tries to close the doors to a parallel world which was opened by demons; a detective tries to protect the people and the one she loves.</p>
+                    <button class="movie-list-item-button" onclick="d3()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images\imag4.jpg" alt="">
+                    <span class="movie-list-item-title">Law School</span>
+                    <p class="movie-list-item-desc">When a grim incident occurs at their prestigious school, justice through law is put to a test by a tough law professor and his ambitious students.</p>
+                    <button class="movie-list-item-button" onclick="d4()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images\imag5.jpg" alt="">
+                    <span class="movie-list-item-title">Snow drop</span>
+                    <p class="movie-list-item-desc">Youngro, a fresh and lively freshman at Hosu Women's University, falls in love with Suho at first sight at a group blind date</p>
+                    <button class="movie-list-item-button" onclick="d5()">Watch</button>
+                </div>
+            </div>
+        </div>
+        <div class="movie-list-wrapper">
+            <div class="movie-list">
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/imag7.jpeg" alt="">
+                    <span class="movie-list-item-title">Twenty five Twenty One</span>
+                    <p class="movie-list-item-desc">In a time when dreams seem out of reach, a teenage fencer pursues big ambitions and meets a hardworking young man who seeks to rebuild his life.</p>
+                    <button class="movie-list-item-button" onclick="d6()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/imag8.jpg" alt="">
+                    <span class="movie-list-item-title">Squid Game</span>
+                    <p class="movie-list-item-desc">Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.</p>
+                    <button class="movie-list-item-button" onclick="d1()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/imag9.jpg" alt="">
+                    <span class="movie-list-item-title">Sweet home</span>
+                    <p class="movie-list-item-desc">As humans turn into savage monsters, one troubled teenager and his neighbours fight to survive and to hold onto their humanity.</p>
+                    <button class="movie-list-item-button" onclick="d2()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/imag10.jpg" alt="">
+                    <span class="movie-list-item-title">Mr Queen</span>
+                    <p class="movie-list-item-desc">A modern chef suddenly becomes trapped inside the body of a queen from the Joseon era, which causes chaos for everyone involved.</p>
+                    <button class="movie-list-item-button" onclick="d3()">Watch</button>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="images/imag11.jpg" alt="">
+                    <span class="movie-list-item-title">Welcome to /waikiki</span>
+                    <p class="movie-list-item-desc">Three young men join forces in a guesthouse venture with one dream in mind, to finance their own film project. However, the venture is anything but profitable.</p>
+                    <button class="movie-list-item-button" onclick="d4()">Watch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <footer class="footer-design">
+    <div class="footer-container">
+        <h1 class="logo" style="margin-left: 47%;">Koflix</h1>
+        <div class="social">
+            <a href="#"><i class="social-icons fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="social-icons fa-brands fa-facebook "></i></a>
+            <a href="#"><i class="social-icons fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="social-icons fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

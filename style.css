@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+
+.navbar-container{
+display: flex;
+align-items: center;
+background-color: black;
+padding: 0 50px;
+font-family: 'Arsenal', sans-serif;
+}
+
+.logo-container{
+    flex: 1;
+    background-color: black;
+}
+
+.logo{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 35px;
+    color:lightpink;
+}
+
+.menu-container{
+    flex: 5;
+    background-color: black;
+    color: white;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item{
+    margin-right: 30px;
+}
+
+.menu-list-item.active{
+    font-weight: bold;
+    color: white;
+}
+
+.search-box{
+    padding-top: 30px;
+
+}
+
+.profile-container{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+    background-image: url(images/doom\ at\ your\ ser.jpg);
+}
+
+.profile-text-container{
+    margin: 0 20px;
+}
+
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text-color{
+    color: black;
+}
+  
+.sidebar{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    align-items: center;
+}
+
+.left-menu-icon{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.container{
+    background-color: #151515;
+    height: calc(100vh - 50px);
+    color: white;
+}
+
+.content-container{
+    margin-left: 60px;
+}
+
+.featured-content{
+    height: 50vh;
+}
+
+.featured-desc{
+    width: 500px;
+    color:white;
+    margin: 50px 0;
+}
+
+.featured-button{
+    background-color: #4dbf00;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.movie-list-title{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 35px;
+    color:lavender;
+}
+
+.movie-list-container{
+    padding: 0 70px;
+    background-color:rgb(27, 26, 26)
+}
+
+.movie-list-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-list {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+  }
+
+  .movie-list-item {
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .movie-list-item:hover .movie-list-item-img {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+  }
+
+.movie-list-item:hover .movie-list-item-title,
+.movie-list-item:hover .movie-list-item-desc,
+.movie-list-item:hover .movie-list-item-button {
+  opacity: 1;
+}
+
+.movie-list-item-img {
+  transition: all 1s ease-in-out;
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.movie-list-item-title {
+  background-color:darkslategrey;
+  padding: 0 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: lavender;
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  opacity: 0;
+  transition: 2s all ease-in-out;
+}
+
+.movie-list-item-desc {
+  background-color: #333;
+  padding: 10px;
+  font-size: 14px;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+  width: 230px;
+  opacity: 0;
+  transition: 2s all ease-in-out;
+}
+
+.movie-list-item-button {
+  padding: 10px;
+  background-color: #4dbf00;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  opacity: 0;
+  transition: 2s all ease-in-out;
+}
+
+.service{
+     background-image: url(images/2.jpg) no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+.service-container{
+    padding: 0 70px;
+    background-color:rgb(27, 26, 26)
+}
+
+.service-banner{
+     position: relative;
+     margin-bottom: 50px;
+     max-width: max-content;
+}
+
+.service-banner img { width: 100%; }
+
+.footer-design{
+  background-color: rgb(27, 26, 26)
+}
+
+.footer-container{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons{
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.headings{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-size: 45px;
+    font-family: 'Arsenal', sans-serif;
+    background-image: url(images/fight\ for\ my\ way.jpg);
+}
